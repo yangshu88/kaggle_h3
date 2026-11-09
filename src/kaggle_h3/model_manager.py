@@ -88,13 +88,13 @@ H3_DIFFUSION_MODEL_ALTERNATIVES: dict[str, H3DiffusionModelSpec] = {
 H3_SINGULARITY_DIFFUSION_SPECS: dict[str, H3DiffusionModelSpec] = {
     "Ref2VA": H3DiffusionModelSpec(
         variant="Ref2VA",
-        filename="Minimax-h3_Singularity_ref2va_Pruned_v1.3_int8.safetensors",
+        filename="PRISM_DMAD_PDMD_int8.safetensors",
         precision="int8_convrot",
-        repository=H3_SINGULARITY_REPOSITORY,
-        revision=H3_SINGULARITY_REVISION,
-        sha256="412a7b126595a958964193f3b42513d7cf2df4196ef04223a0f05e3622949cce",
+        repository="OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+        revision="e579b305c593e9f7b8f9e7d78a4f9bc52b3c9e2e6be53aed3a52038eae183c59",  # 或者你复制的40位具体commit哈希
+        sha256=948e1d56621f5e76677d515939c716ebf85de8131e4e498013c87ec9e4edba46,  # 先设为None跳过校验，跑通后再补真实哈希
         profile="singularity",
-        repository_path="Minimax-h3_Singularity_ref2va_Pruned_v1.3_int8.safetensors",
+        repository_path="PRISM_DMAD_PDMD_int8.safetensors",
     ),
 }
 
