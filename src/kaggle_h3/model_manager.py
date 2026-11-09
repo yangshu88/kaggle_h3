@@ -92,7 +92,7 @@ H3_SINGULARITY_DIFFUSION_SPECS: dict[str, H3DiffusionModelSpec] = {
         precision="int8_convrot",
         repository="OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
         revision="e579b305c593e9f7b8f9e7d78a4f9bc52b3c9e2e6be53aed3a52038eae183c59",  # 或者你复制的40位具体commit哈希
-        sha256=948e1d56621f5e76677d515939c716ebf85de8131e4e498013c87ec9e4edba46,  # 先设为None跳过校验，跑通后再补真实哈希
+        sha256="948e1d56621f5e76677d515939c716ebf85de8131e4e498013c87ec9e4edba46",  # 先设为None跳过校验，跑通后再补真实哈希
         profile="singularity",
         repository_path="PRISM_DMAD_PDMD_int8.safetensors",
     ),
