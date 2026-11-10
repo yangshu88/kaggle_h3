@@ -2,11 +2,7 @@ requests>=2.31,<3
 psutil>=5.9,<7
 huggingface-hub>=1.32,<3
 # Native phase-aware ComfyUI H3 dispatch uses Accelerate at generation time.
-accelerate>=1.8,<2
-torch==2.6.0
-torchvision==0.21.0
-torchaudio==2.6.0
-numpy==2.0.2
+
 
 # The Kaggle notebook installs this file before ComfyUI starts.  Include the
 # optional T4 attention backend there so the sampler toggle can actually find
