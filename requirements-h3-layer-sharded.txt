@@ -3,8 +3,3 @@
 accelerate>=1.8,<2
 diffusers>=0.35.1
 transformers>=4.50,<6
-huggingface-hub>=1.32.1
-torch==2.6.0
-torchvision==0.21.0
-torchaudio==2.6.0
-numpy==2.0.2
